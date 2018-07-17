@@ -1,0 +1,73 @@
+p {
+  color: black;
+  font-size: 25px;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+}
+
+body {
+  background-color: red;
+}
+
+/*--id overrides classes*/
+
+h2 {
+  text-align: left;
+  margin-left: 300px;
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#heading {
+  color: white;
+  background-color: red;
+}
+
+#body{
+  padding-top: -50px;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 100px;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: -30px;
+  color: white;
+  background-color: red;
+  margin-bottom: 5px;
+
+}
+
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+img {
+  width: 30px;
+  height: 15px;
+  margin-top: 20px;
+  margin-left: 600px;
+  margin-right: 570px;
+  display: block;
+}
+
+button {
+
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
