@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 60px;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 0px;
+  color: black;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+#bio {
+  color: white;
+  background-color: red;
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#likes {
+  color: white;
+  background-color: #ff3333;
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#dislikes {
+  color: white;
+  background-color:#ff6666;
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#funfact {
+  color: white;
+  background-color: #ff9999;
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#project {
+  color: white;
+  background-color: #ffb3b3;
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
